@@ -16,22 +16,50 @@ SimBot-Consciousness is an advanced robotic consciousness simulation environment
 
 ---
 
-## 📊 Architectural Breakdown & Visualization
+## 📊 Architectural Breakdown & Interactive Mind Charts
 
 ### 1. Panpsychic Spatial Stress Matrix Map
-Here is how environmental elements dynamically transform into high-tension states when the robot cuts through their spatial thresholds:
+The diagram below illustrates how environmental elements dynamically transform into a high-tension state when the robot cuts through their spatial thresholds (Radius < 120):
 
-<img src="assets/panpsychic_mind_map.png" alt="Panpsychic Mind Map" width="600"/>
+```mermaid
+graph TD
+    Robot[⭐ SimBot AI Core] -->|Proximity Threshold < 120| Obj2[🔴 Obj_2: High Tension Mind]
+    Robot -->|Proximity Threshold > 120| Obj1[🟢 Obj_1: Equilibrium Node]
+    
+    style Robot fill:#1f77b4,stroke:#333,stroke-width:2px,color:#fff
+    style Obj2 fill:#d62728,stroke:#333,stroke-width:2px,color:#fff
+    style Obj1 fill:#2ca02c,stroke:#333,stroke-width:2px,color:#fff
+    
+    classDef default font-family:Arial,font-size:12px;
+```
 
 ### 2. Real OpenCV Computer Vision Matrix Processing
-The framework avoids synthetic noise values by using a real matrix configuration executing Canny boundary tracking:
+The framework avoids synthetic noise values by using a real matrix configuration executing automated Canny boundary shape tracking:
 
-<img src="assets/opencv_vision_matrix.png" alt="OpenCV Vision Matrix" width="600"/>
+```mermaid
+graph LR
+    Input[📷 Raw Camera Frame 200x200] -->|Matrix Optimization| Gray[Blur Filter Processing]
+    Gray -->|OpenCV Canny Kernel| Edges[Isolate Boundary Shapes]
+    Edges -->|Pixel Analysis| Core[Calculate Structural Complexity %]
+    
+    style Input fill:#7f7f7f,stroke:#333,color:#fff
+    style Edges fill:#bcbd22,stroke:#333,color:#fff
+    style Core fill:#17becf,stroke:#333,color:#fff
+```
 
 ### 3. Dual-Layer Cognitive Auditory Loop Flowchart
-Visualizing how decibel peaks trigger a cognitive shift from passive environment background monitoring to automated target attention lock:
+Visualizing how sound amplitude intensity (decibel peaks) triggers a cognitive focus shift from passive environment background monitoring to automated target attention lock:
 
-<img src="assets/auditory_loop_flow.png" alt="Auditory Loop Flow" width="600"/>
+```mermaid
+graph TD
+    Mic[🎤 Environment Audio Field] --> Decibel{Measure dB Level}
+    Decibel -->|Below 40 dB| Passive[🔇 Passive Background Suppressor]
+    Decibel -->|Above 40 dB| Active[🔊 Engage Active Listening Mode]
+    Active --> Lock[Target Anomaly Focus Locked]
+    
+    style Passive fill:#2ca02c,stroke:#333,color:#fff
+    style Active fill:#d62728,stroke:#333,color:#fff
+```
 
 ---
 
@@ -71,10 +99,8 @@ Success! Consciousness simulation file compiled and saved as: '/your-directory/s
 
 ```text
 ├── main.py                # Core Engine & Live Animation Pipeline
-├── generate_assets.py     # Tool to build project diagrams
 ├── requirements.txt       # Framework dependencies (NumPy, Matplotlib, OpenCV)
-├── README.md              # Documentation and Architecture Breakdown
-└── assets/                # Folder containing the generated PNG diagrams
+└── README.md              # Documentation and Architecture Breakdown
 ```
 
 ---
