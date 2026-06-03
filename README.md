@@ -1,3 +1,7 @@
+<img width="1000" height="800" alt="simbot_simulation" src="https://github.com/user-attachments/assets/676aad81-17ad-44c6-8a31-0e13b730bec8" />
+<img width="1295" height="1067" alt="panpsychic_mind_map" src="https://github.com/user-attachments/assets/51417760-6c32-42c1-8d5d-bd0fe658049b" />
+<img width="1192" height="657" alt="opencv_vision_matrix" src="https://github.com/user-attachments/assets/54fff6e5-ff95-43a1-864d-5ab9d4719aa3" />
+<img width="1279" height="598" alt="auditory_loop_flow" src="https://github.com/user-attachments/assets/b6e50dff-257e-40ac-a1ee-216235a21f4c" />
 # SimBot-Consciousness 🧠💻
 
 > **Multimodal Visual, Auditory & Panpsychic Simulation Architecture with Live Spatial Optimization Tracking.**
